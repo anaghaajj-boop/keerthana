@@ -1,0 +1,43 @@
+﻿body {
+   background: linear-gradient(#cfe9ff, #eaf6ff);
+    font-family: Arial;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+  box-shadow: 0 0 25px #a8d8ff;
+}
+button {
+    background: #4da6ff;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2a7bd3;
+}
+
+.hidden {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.gallery img {
+    width: 160px;        /* size of photos */
+    height: 160px;
+    object-fit: cover;   /* makes them square & neat */
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 12px #9ed0ff;
+}
