@@ -1,0 +1,66 @@
+﻿body {
+    background: linear-gradient(#000c1d, #001f3f); /* Deep dark blue */
+    color: #e0f2ff; /* Very light blue text */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.card {
+    background: #002b5c; /* Dark navy card */
+    padding: 30px;
+    width: 85%;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 0 0 30px rgba(0, 140, 255, 0.4); /* Blue glow */
+    border: 1px solid #004080;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.hidden {
+    display: none;
+    margin-top: 25px;
+    line-height: 1.6;
+    animation: fadeIn 1s ease-in;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin: 8px;
+    border-radius: 15px;
+    border: 2px solid #007bff;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
